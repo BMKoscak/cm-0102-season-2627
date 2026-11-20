@@ -1,0 +1,27 @@
+{
+  "name": "cm-0102-season-2627",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Championship Manager 01/02 inspired football management game updated for the 2026/27 season",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "hydrate": "node scripts/hydrate_db.js"
+  },
+  "dependencies": {
+    "lucide-react": "^0.475.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.3",
+    "vite": "^6.1.1"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "seasonLabel": "2026/27",
+  "generatedAt": "2026-08-01T00:00:00.000Z",
+  "sources": ["thesportsdb", "wikipedia", "openfootball"],
+  "clubs": {},
+  "players": {}
+}
